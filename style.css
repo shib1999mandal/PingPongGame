@@ -1,0 +1,40 @@
+body{
+  background-image:linear-gradient(45deg,purple,violet);
+}
+
+#container {
+  position: relative;
+   
+}
+
+
+#ball{
+  position:fixed;
+  top:20px;
+  left:52%;
+  height:20px;
+  width:20px;
+  border-radius: 10px;
+  background-color: brown;
+  /* border:1px solid gray; */
+}
+
+#paddle1,#paddle2{
+  height:20px;
+  width:250px;
+  background-color: darkorchid;
+  border-radius: 2px;
+  position:fixed;
+  left:50%;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+}
+#paddle1{
+  top:0px;
+ 
+}
+#paddle2{
+  bottom:0px;
+  
+}
